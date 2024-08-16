@@ -1,0 +1,6 @@
+<ul class="text-[12px] text-gray-300">
+<li class="leading-relaxed"><a href="#">PELLENTESQUE MORBI</a></li>
+<li class="leading-relaxed"><a href="#">PRETIUM PELLENTESQUE</a></li>
+<li class="leading-relaxed"><a href="#">LEO EGESTAS</a></li>
+<li class="leading-relaxed"><a href="#">NULLA AUGUE</a></li>
+</ul>

@@ -1,0 +1,120 @@
+html,
+body{
+  background-color: #171B40;
+  font-family: 'Cubano', sans-serif;
+}
+
+#navbar {
+  background-image: url("./images/nav-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#home-page-bg {
+  background-image: url("./images/home-page.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ 
+ /* Custom CSS for sliding effect */
+ #mobile-menu {
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+#mobile-menu.open {
+  transform: translateX(0);
+}
+
+.card-bg{
+  background-color: rgba(255, 255, 255, 0.068);
+}
+
+#white-bg-img {
+  background-image: url("./images/vector.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; /* Default height for larger screens */
+}
+
+#bg-img{
+  background-image: url("./images/vector-2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; /* Default height for larger screens */
+
+}
+
+.blur-img-box{
+  background-image: url("./images/rectangle-blure-2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blur-img-box-2{
+  background-image: url("./images/rectangle-blure.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bg-img-2{
+  background-image: url("./images/vector-3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; /* Default height for larger screens */
+}
+
+#footer-bg-img{
+  background-image: url("./images/vector-4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto; /* Default height for larger screens */
+}
+
+.sec-box-p{
+  padding-left: 40px;
+  padding-right: 32px;
+}
+
+/* Media query for screens 768px or smaller */
+@media screen and (max-width: 768px) {
+  #white-bg-img {
+    height: 130vh; /* Height for medium screens */
+  }
+
+  .blur-img-box{
+    margin-top: 100px;
+  }
+
+  .sec-box-p{
+    padding-left: 20px;
+    padding-right: 16px;
+  }
+
+  .pink-shadow{
+    display: none;
+  }
+
+  .pink-shadow-2{
+    display: none;
+  }
+}
+
+/* Media query for screens 495px or smaller */
+@media screen and (max-width: 495px) {
+  #white-bg-img {
+    height: 150vh; /* Height for smaller screens */
+  }
+
+  #pie-chart{
+    padding-top: 140px;
+  }
+}
